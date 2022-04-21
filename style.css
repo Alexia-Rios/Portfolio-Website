@@ -11,7 +11,7 @@
 
 
 body {
-    background: linear-gradient(-90deg, #EDC9FF, #B2EDC5, #C1FFF2);
+    background: linear-gradient(-90deg, #596475, #BC9EC1, #E3BAC6);
     background-size: 500% 500%;
     animation: gradient 15s linear infinite;
 
@@ -57,7 +57,7 @@ img {
 
 .header-title {
     font-family: 'Courier New', Courier, monospace;
-    color: #313638;
+    color: #1F2232;
     font-size: 75px;
 
 }
@@ -95,7 +95,7 @@ img {
     height: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 26px;
-    color: #313638;
+    color: #1F2232;
     text-decoration: none;
 
 }
