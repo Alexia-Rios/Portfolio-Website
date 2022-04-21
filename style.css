@@ -14,7 +14,7 @@ body {
     background: linear-gradient(-90deg, #191bac, #ff9cc2, #9cebff);
     background-size: 500% 500%;
     animation: gradient 15s linear infinite;
-    /* height: 100vh; */
+
 }
 
 @keyframes gradient {
@@ -117,10 +117,11 @@ img {
 }
 
 .prof-img {
-    border-radius: 50%;
-    width: 400px;
+
+    width: auto;
     height: 350px;
     margin-bottom: 500px;
+    border-radius: 50%;
 }
 
 .intro-text {
@@ -131,7 +132,11 @@ img {
 }
 
 .work-btn {
-    border-radius: 50%;
+
+    width: 450px;
+}
+
+p {
     width: 450px;
 }
 
