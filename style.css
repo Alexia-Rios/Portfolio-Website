@@ -4,14 +4,10 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: "Ms Madi";
-    src: url("MsMadi-Regular.ttf");
-}
 
 
 body {
-    background: linear-gradient(-90deg, #596475, #BC9EC1, #E3BAC6);
+    background: linear-gradient(180deg, #033072, #4d178b, #e088f0, #f3a5ec);
     background-size: 500% 500%;
     animation: gradient 15s linear infinite;
 
@@ -19,15 +15,15 @@ body {
 
 @keyframes gradient {
     0% {
-        background-position: 0% 50%;
+        background-position: 50% 0%;
     }
 
     50% {
-        background-position: 100% 50%;
+        background-position: 50% 100%;
     }
 
     100% {
-        background-position: 0% 50%;
+        background-position: 50% 0%;
     }
 }
 
